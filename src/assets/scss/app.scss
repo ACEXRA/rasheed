@@ -1,10 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
 .app {
   background-color: #111;
-  color: #fff;
+  color: #ebecf3;
   font-family: "Handjet";
   display: grid;
-  grid-template-columns: 3.75rem 1fr;
+  grid-template-columns: 6rem 1fr;
 }
 .sidebar {
   background-color: #000;
@@ -17,12 +17,12 @@
   flex-direction: column;
   align-items: center;
   .title {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 900;
     line-height: 1;
     flex-shrink: 0;
-    width: 3rem;
-    height: 3rem;
+    width: 4.5rem;
+    height: 4.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +31,10 @@
     margin: 1.8rem 0;
   }
   .link {
-    height: 6.25rem;
+    height: 10rem;
     flex-shrink: 0;
     writing-mode: vertical-lr;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
     display: flex;
     align-items: center;
@@ -55,9 +55,126 @@
     }
   }
 }
-a {
-  text-decoration: none;
-  color: inherit;
+.header {
+  height: calc(45px + 3.6rem);
+  padding: 0 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: hsla(0, 0%, 7%, 0.25);
+  backdrop-filter: blur(12px);
+  font-size: 2.4rem;
+  font-weight: 700;
+  .header_link {
+    display: flex;
+    gap: 1.6rem;
+    a {
+      opacity: 0.5;
+      position: relative;
+      z-index: 20;
+      &:hover {
+        color: #0aff9d;
+        opacity: 1;
+      }
+    }
+  }
+  .cust_btn {
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+    border: 1px solid #0aff9d;
+    background: transparent;
+    color: #0aff9d;
+    font-size: 2rem;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: color 0.2s;
+    &:hover {
+      color: #000;
+      &::before {
+        top: 0;
+        left: 0;
+      }
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      background: #0aff9d;
+      height: 100%;
+      width: 100%;
+      left: -100%;
+      top: -100%;
+      transition: left 0.2s, top 0.2s;
+    }
+  }
+}
+.home {
+  position: relative;
+  z-index: 10;
+  width: fit-content;
+  margin: 4.8rem 0;
+
+  h1 {
+    font-size: 9.6rem;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 3.6rem;
+    line-height: 1.1;
+    margin-top: 1.6rem;
+    font-weight: 200;
+  }
+  p {
+    margin: 2.4rem 0;
+    max-width: 700px;
+    font-weight: 200;
+    font-size: 1.8rem;
+  }
+  .cust_btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+    background: #0aff9d;
+    color: #000;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    position: relative;
+    z-index: 20;
+    overflow: hidden;
+    transition: opacity 0.2s;
+  }
+}
+.title_head {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+  .line {
+    width: 100%;
+    height: 1px;
+    background: #ebecf3;
+    opacity: 0.3;
+  }
+  h3 {
+    font-size: 5.6rem;
+    font-weight: 900;
+    text-align: end;
+  }
+}
+.section {
+  position: relative;
+  z-index: 10;
+  max-width: 1150px;
+  margin: auto;
+  padding: 9.6rem;
+  overflow: hidden;
 }
 .temp {
   height: 100vh;
@@ -65,4 +182,8 @@ a {
   justify-content: center;
   align-items: center;
   font-size: 10rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }

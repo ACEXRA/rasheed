@@ -4,10 +4,12 @@ import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
 import Contact from "../pages/Contact";
+import Header from "./Header";
 
 const Content = () => {
   return (
     <div>
+      <Header />
       <Home />
       <About />
       <Projects />

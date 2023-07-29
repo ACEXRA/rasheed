@@ -40,25 +40,25 @@ const Sidebar = () => {
       </a>
       <a
         href="#about"
-        className={`link ${activeSection == "about" ? "active" : ""}`}
+        className={`link ${activeSection === "about" ? "active" : ""}`}
       >
         About
       </a>
       <a
         href="#projects"
-        className={`link ${activeSection == "projects" ? "active" : ""}`}
+        className={`link ${activeSection === "projects" ? "active" : ""}`}
       >
         Projects
       </a>
       <a
         href="#experience"
-        className={`link ${activeSection == "experience" ? "active" : ""}`}
+        className={`link ${activeSection === "experience" ? "active" : ""}`}
       >
         Experience
       </a>
       <a
         href="#contact"
-        className={`link ${activeSection == "contact" ? "active" : ""}`}
+        className={`link ${activeSection === "contact" ? "active" : ""}`}
       >
         Contact
       </a>
