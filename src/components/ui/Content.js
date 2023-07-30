@@ -15,6 +15,7 @@ const Content = () => {
       <Projects />
       <Experience />
       <Contact />
+      <div className="end_hue"></div>
     </div>
   );
 };
