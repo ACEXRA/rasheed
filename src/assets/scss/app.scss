@@ -291,7 +291,7 @@
 .section {
   position: relative;
   z-index: 10;
-  max-width: 1150px;
+  max-width: 115rem;
   margin: auto;
   padding: 9.6rem;
   overflow: hidden;
@@ -311,4 +311,35 @@ p {
   font-weight: 200;
   font-size: 1.8rem;
   margin: 2.4rem 0;
+}
+
+.dotGrid {
+  grid-template-columns: repeat(25, 1fr);
+  position: absolute;
+  top: 12px;
+  bottom: 12px;
+  right: 3.6rem;
+  max-width: 75%;
+  display: grid;
+  z-index: 0;
+  .dots {
+    padding: 0.8rem;
+    cursor: crosshair;
+    border-radius: 8px;
+    &:hover {
+      background: hsla(0, 0%, 100%, 0.15);
+      transition: background 0.25s;
+      .dot {
+        background: linear-gradient(180deg, #111, #0aff9d) !important;
+        opacity: 1 !important;
+      }
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: linear-gradient(180deg, #111, #ebecf3);
+      opacity: 0.5;
+    }
+  }
 }

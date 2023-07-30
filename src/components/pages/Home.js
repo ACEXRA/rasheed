@@ -1,4 +1,5 @@
 import React from "react";
+import Droplets from "../misc/Droplets";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
 
         <button className="cust_btn">Contact</button>
       </div>
+      <Droplets />
     </div>
   );
 }
