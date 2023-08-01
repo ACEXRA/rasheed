@@ -4,7 +4,9 @@ const Sidebar = () => {
   const [activeSection, setActiveSection] = useState(null);
   const sections = useRef([]);
   const handleScroll = () => {
-    const pageYOffset = window.pageYOffset;
+    const pageYOffset = parseInt(
+      document.body.getBoundingClientRect().top * -1 + 200
+    );
     let newActiveSection = null;
 
     sections.current.forEach((section) => {

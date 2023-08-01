@@ -11,10 +11,7 @@ const DotGrid = () => {
   const handleCLick = (e) => {
     anime({
       targets: ".dot",
-      background: [
-        { value: "#0aff9d", duration: 250 },
-        { value: "#ebecf3", duration: 250 },
-      ],
+
       scale: [
         { value: 1.35, easing: "easeOutSine", duration: 250 },
         { value: 1, easing: "easeInOutQuad", duration: 500 },
