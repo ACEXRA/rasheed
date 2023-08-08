@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rasheed/static/css/main.6ec502d0.css",
+    "main.js": "/rasheed/static/js/main.07ed17f6.js",
+    "static/media/temp.png": "/rasheed/static/media/temp.121d1c79f0aaa19a07d9.png",
+    "index.html": "/rasheed/index.html",
+    "main.6ec502d0.css.map": "/rasheed/static/css/main.6ec502d0.css.map",
+    "main.07ed17f6.js.map": "/rasheed/static/js/main.07ed17f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ec502d0.css",
+    "static/js/main.07ed17f6.js"
+  ]
+}
