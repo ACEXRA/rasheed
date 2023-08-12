@@ -1,4 +1,5 @@
 import React from "react";
+import Pdf from "../../assets/pdf/RasheedAhamedA.pdf";
 
 const Header = () => {
   return (
@@ -44,7 +45,11 @@ const Header = () => {
         </span>
       </div>
       <div>
-        <button className="cust_btn">My Resume</button>
+        <button className="cust_btn">
+          <a download href={Pdf}>
+            My Resume
+          </a>
+        </button>
       </div>
     </div>
   );
