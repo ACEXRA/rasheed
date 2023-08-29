@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rasheed/static/css/main.6ec502d0.css",
-    "main.js": "/rasheed/static/js/main.3f69821d.js",
+    "main.css": "/rasheed/static/css/main.3a809888.css",
+    "main.js": "/rasheed/static/js/main.9b686989.js",
     "static/media/RasheedAhamedA.pdf": "/rasheed/static/media/RasheedAhamedA.bd5b82b4f52a7b22f09a.pdf",
     "static/media/temp.png": "/rasheed/static/media/temp.121d1c79f0aaa19a07d9.png",
     "index.html": "/rasheed/index.html",
-    "main.6ec502d0.css.map": "/rasheed/static/css/main.6ec502d0.css.map",
-    "main.3f69821d.js.map": "/rasheed/static/js/main.3f69821d.js.map"
+    "main.3a809888.css.map": "/rasheed/static/css/main.3a809888.css.map",
+    "main.9b686989.js.map": "/rasheed/static/js/main.9b686989.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ec502d0.css",
-    "static/js/main.3f69821d.js"
+    "static/css/main.3a809888.css",
+    "static/js/main.9b686989.js"
   ]
 }
