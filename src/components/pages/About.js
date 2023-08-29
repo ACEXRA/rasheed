@@ -31,33 +31,27 @@ export default function About() {
         <div>
           <Reveal>
             <p>
-              Hey! I'm Bob, if you haven't already gathered that by now. I'm a
-              painter turned software engineer from Daytona, Florida. I
-              specialize in the backend, primarily Node and Rust, but love
-              building with whatever tools are right for the job.
+              Experienced System Engineer with a strong background in Java
+              programming and a track record of contributing to diverse
+              projects. Proficient in modernizing legacy applications,
+              conducting code analysis, and implementing new features.
             </p>
           </Reveal>
           <Reveal>
             <p>
-              I currently work for Google on Google Photos. I also toss in my ¢2
-              with the design systems teams from time to time (once an artist,
-              always an artist, amirite?).
+              Skilled in a range of technologies including Java, React, Spring
+              microservices, and database management. Adept at collaborating
+              within teams, managing projects, and ensuring efficient code
+              deployment.
             </p>
           </Reveal>
           <Reveal>
             <p>
-              Outside of work, I still love to paint. Any given Sunday you'll
-              find me scribbling some happy clouds with my son ☁️ I even teach
-              courses online if you're looking to learn!
+              Excels in combining technical expertise with effective
+              communication and leadership skills to drive project success.
             </p>
           </Reveal>
-          <Reveal>
-            <p>
-              I'm passively looking for new positions where I can merge my love
-              for code with my love for the canvas. If you think you've got an
-              opening that I might like, let's connect 🔗
-            </p>
-          </Reveal>
+
           <Reveal>
             <div className="about_links">
               <p style={{ color: "#0aff9d" }}>My links -{">"}</p>

@@ -13,7 +13,7 @@ export default function Contact() {
         <Reveal>
           <p>
             Shoot me an email if you want to connect! You can also find me on
-            Linkedin or Twitter if that's more your speed.
+            Linkedin.
           </p>
         </Reveal>
         <Reveal width={true}>
@@ -37,7 +37,9 @@ export default function Contact() {
                   textAlign: "center",
                 }}
               >
-                rasheed.786ahamed@gmail.com
+                <a href="mailto:rasheed.786ahamed@gmail.com">
+                  rasheed.786ahamed@gmail.com
+                </a>
               </span>
             </div>
           </a>

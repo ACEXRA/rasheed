@@ -12,7 +12,7 @@ const Content = () => {
       <Header />
       <Home />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Experience />
       <Contact />
       <div className="end_hue"></div>

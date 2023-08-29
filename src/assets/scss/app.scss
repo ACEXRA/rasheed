@@ -130,7 +130,7 @@
     font-weight: 200;
   }
   p {
-    max-width: 700px;
+    max-width: 60rem;
   }
   h1,
   h2,
@@ -250,6 +250,7 @@
     display: flex;
     gap: 1.2rem;
     flex-wrap: wrap;
+    margin-bottom: 2.4rem;
     .item {
       font-size: 1.8rem;
       background: #232323;
@@ -318,7 +319,7 @@ a {
 }
 p {
   font-weight: 200;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
   margin: 2.4rem 0;
 }
 

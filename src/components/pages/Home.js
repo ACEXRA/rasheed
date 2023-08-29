@@ -18,18 +18,21 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <h2>
-            I am <span style={{ color: "#0aff9d" }}>Full Stack Developer</span>
+            I am <span style={{ color: "#0aff9d" }}>Web Developer</span>
           </h2>
         </Reveal>
         <Reveal>
           <p>
-            I've spent the last 5 years building and scaling software for some
-            pretty cool companies. I also teach people to paint online (incase
-            you've got an empty canvas layin' around 🎨). Let's connect!
+            I am a dedicated developer with a strong background in
+            development💻, problem-solving, and leadership. I'm eager to
+            contribute my skills to meaningful projects and drive impactful
+            results.
           </p>
         </Reveal>
         <Reveal>
-          <button className="cust_btn">Contact</button>
+          <button className="cust_btn">
+            <a href="#contact">Contact</a>
+          </button>
         </Reveal>
       </div>
       <Droplets />

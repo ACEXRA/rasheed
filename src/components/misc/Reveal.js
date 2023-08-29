@@ -3,7 +3,7 @@ import { motion, useAnimation, useInView } from "framer-motion";
 
 const Reveal = (props) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
+  const isInView = useInView(ref, { once: false });
 
   const mainControls = useAnimation();
   const slideControls = useAnimation();
