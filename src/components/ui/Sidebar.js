@@ -46,12 +46,12 @@ const Sidebar = () => {
       >
         About
       </a>
-      <a
+      {/* <a
         href="#projects"
         className={`link ${activeSection === "projects" ? "active" : ""}`}
       >
         Projects
-      </a>
+      </a> */}
       <a
         href="#experience"
         className={`link ${activeSection === "experience" ? "active" : ""}`}
