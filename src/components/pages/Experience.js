@@ -48,34 +48,6 @@ export default function Experience() {
             <span className="item">JSP</span>
           </div>
         </Reveal>
-        <Reveal width={true}>
-          <div className="experience_heading">
-            <span>Aequalis Software Solutions Pvt Ltd</span>
-            <span>Jun 2021 - Sept 2021</span>
-          </div>
-        </Reveal>
-        <Reveal width={true}>
-          <div className="experience_heading">
-            <span style={{ color: "#0aff9d" }}>React Developer</span>
-            <span>Chennai,TamilNadu(Remote)</span>
-          </div>
-        </Reveal>
-        <Reveal>
-          <p>
-            During my internship at Aequalis Software Solutions, I played a
-            pivotal role as a React Developer. I successfully built an Ethereum
-            transaction module with secure rules and improved frontend UI,
-            alongside streamlining application processes and creating intuitive
-            interfaces for farmer societies.
-          </p>
-        </Reveal>
-        <Reveal>
-          <div className="experience_items">
-            <span className="item">ReactJs</span>
-            <span className="item">Html,css</span>
-            <span className="item">Javascript</span>
-          </div>
-        </Reveal>
       </div>
     </div>
   );
