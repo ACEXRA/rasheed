@@ -31,10 +31,10 @@ export default function About() {
         <div>
           <Reveal>
             <p>
-              Experienced System Engineer with a strong background in Java
+              Experienced Software Developer with a strong background in Java
               programming and a track record of contributing to diverse
-              projects. Proficient in modernizing legacy applications,
-              conducting code analysis, and implementing new features.
+              projects. Worked in modernizing legacy applications, conducting
+              code analysis, and implementing new features.
             </p>
           </Reveal>
           <Reveal>
