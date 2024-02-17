@@ -18,7 +18,7 @@ export default function Home() {
         </Reveal>
         <Reveal>
           <h2>
-            I am <span style={{ color: "#0aff9d" }}>Web Developer</span>
+            I am <span style={{ color: "#0aff9d" }}>Java Developer</span>
           </h2>
         </Reveal>
         <Reveal>
