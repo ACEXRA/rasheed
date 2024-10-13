@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rasheed/static/css/main.3a809888.css",
-    "main.js": "/rasheed/static/js/main.4751a47e.js",
-    "static/media/RasheedAhamedA.pdf": "/rasheed/static/media/RasheedAhamedA.90b72b74f109a4dcb3fd.pdf",
+    "main.js": "/rasheed/static/js/main.2d4ebe35.js",
+    "static/media/RasheedAhamed-FullStackJavaDeveloper.pdf": "/rasheed/static/media/RasheedAhamed-FullStackJavaDeveloper.e7c5446e961fb5343920.pdf",
     "static/media/temp.png": "/rasheed/static/media/temp.121d1c79f0aaa19a07d9.png",
     "index.html": "/rasheed/index.html",
     "main.3a809888.css.map": "/rasheed/static/css/main.3a809888.css.map",
-    "main.4751a47e.js.map": "/rasheed/static/js/main.4751a47e.js.map"
+    "main.2d4ebe35.js.map": "/rasheed/static/js/main.2d4ebe35.js.map"
   },
   "entrypoints": [
     "static/css/main.3a809888.css",
-    "static/js/main.4751a47e.js"
+    "static/js/main.2d4ebe35.js"
   ]
 }
